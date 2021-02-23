@@ -32,3 +32,6 @@ copy 'alertmanager-gchat-integration' 'python3-module-docker'
 
 # kubernetes-configmap-sync
 copy 'kubernetes-configmap-sync' 'python3-module-docker'
+
+# helm-charts
+copy 'helm-charts' 'helm-charts'
