@@ -35,3 +35,9 @@ copy 'kubernetes-configmap-sync' 'python3-module-docker'
 
 # helm-charts
 copy 'helm-charts' 'helm-charts'
+
+# assets
+copy 'assets' 'java11-gradlew'
+
+# assets
+copy 'gradle-plugins' 'java11-gradlew-plugins'
