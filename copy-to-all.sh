@@ -23,3 +23,12 @@ copy 'action-manage-tag' 'python3-action'
 
 # action-prepare-release
 copy 'action-prepare-release' 'python3-action'
+
+# http-reqtrace
+copy 'http-reqtrace' 'python3-module-docker'
+
+# alertmanager-gchat-integration
+copy 'alertmanager-gchat-integration' 'python3-module-docker'
+
+# kubernetes-configmap-sync
+copy 'kubernetes-configmap-sync' 'python3-module-docker'
