@@ -28,7 +28,9 @@ build:
 test:
 	@exec >&2; \
 	echo "> Testing."; \
-	AWS_DEFAULT_REGION="eu-west-3" terraform validate
+	export AWS_DEFAULT_REGION="eu-west-3"; \
+	terraform init; \
+	terraform validate
 
 #test: @ Push the package.
 push:
