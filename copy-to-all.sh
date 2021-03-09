@@ -41,3 +41,6 @@ copy 'assets' 'java11-gradlew'
 
 # assets
 copy 'gradle-plugins' 'java11-gradlew-plugins'
+
+# terraform-modules
+copy 'terraform-aws-route53' 'terraform-module'
