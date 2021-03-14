@@ -42,5 +42,14 @@ copy 'assets' 'java11-gradlew'
 # assets
 copy 'gradle-plugins' 'java11-gradlew-plugins'
 
-# terraform-modules
+# terraform-aws-route53
 copy 'terraform-aws-route53' 'terraform-module'
+
+# terraform-aws-route53-record-cname
+copy 'terraform-aws-route53-record-cname' 'terraform-module'
+
+# terraform-aws-lambda-auto-start-stop
+copy 'terraform-aws-lambda-auto-start-stop' 'terraform-module'
+
+# terraform-aws-lambda-auto-start-stop-cloudwatch-alarms
+copy 'terraform-aws-lambda-auto-start-stop-cloudwatch-alarms' 'terraform-module-aws-lambda'
