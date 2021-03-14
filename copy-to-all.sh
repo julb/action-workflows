@@ -52,4 +52,4 @@ copy 'terraform-aws-route53-record-cname' 'terraform-module'
 copy 'terraform-aws-lambda-auto-start-stop' 'terraform-module'
 
 # terraform-aws-lambda-auto-start-stop-cloudwatch-alarms
-copy 'terraform-aws-lambda-auto-start-stop-cloudwatch-alarms' 'terraform-module-aws-lambda'
+copy 'terraform-aws-lambda-auto-start-stop-cloudwatch-alarms' 'terraform-module-aws-lambda-python38'
