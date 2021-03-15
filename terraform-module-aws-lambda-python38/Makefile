@@ -42,13 +42,15 @@ push:
 format:
 	@exec >&2; \
 	echo "> Formatting."; \
-	terraform fmt
+	terraform fmt; \
+	make -C lambda_function format
 
 #lint: @ Lint package
 lint:
 	@exec >&2; \
 	echo "> Linting."; \
-	terraform fmt -check
+	terraform fmt -check; \
+	make -C lambda_function lint
 
 #version.get: @ Gets the version value.
 version.get: install.dependencies

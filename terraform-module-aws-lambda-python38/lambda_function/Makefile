@@ -50,13 +50,13 @@ push:
 format: install.dependencies
 	@exec >&2; \
 	echo "> Formatting."; \
-	venv/bin/autopep8 -ir $(SRC_DIR)
+	venv-lambda/bin/autopep8 -ir $(SRC_DIR)
 
 #lint: @ Lint package
 lint: install.dependencies
 	@exec >&2; \
 	echo "> Linting."; \
 	echo "Running pycodestyle."; \
-	venv/bin/pycodestyle $(SRC_DIR); \
+	venv-lambda/bin/pycodestyle $(SRC_DIR); \
 	echo "Running pylint."; \
-	venv/bin/pylint $(SRC_DIR)
+	venv-lambda/bin/pylint $(SRC_DIR)
