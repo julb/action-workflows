@@ -21,8 +21,11 @@ copy 'action-manage-milestone' 'python3-action'
 # action-manage-tag
 copy 'action-manage-tag' 'python3-action'
 
-# action-prepare-release
-copy 'action-prepare-release' 'python3-action'
+# action-post-googlechat-message
+copy 'action-post-googlechat-message' 'python3-action'
+
+# action-post-twitter-status
+copy 'action-post-twitter-status' 'python3-action'
 
 # http-reqtrace
 copy 'http-reqtrace' 'python3-module-docker'
@@ -42,6 +45,9 @@ copy 'assets' 'java11-gradlew'
 # assets
 copy 'gradle-plugins' 'java11-gradlew-plugins'
 
+# npm-webapp-docker
+copy 'http-url-playlist' 'npm-webapp-docker'
+
 # terraform-aws-route53
 copy 'terraform-aws-route53' 'terraform-module'
 
@@ -53,3 +59,15 @@ copy 'terraform-aws-lambda-auto-start-stop' 'terraform-module'
 
 # terraform-aws-lambda-auto-start-stop-cloudwatch-alarms
 copy 'terraform-aws-lambda-auto-start-stop-cloudwatch-alarms' 'terraform-module-aws-lambda-python38'
+
+# terraform-aws-lambda-auto-start-stop-ec2-instances
+copy 'terraform-aws-lambda-auto-start-stop-ec2-instances' 'terraform-module-aws-lambda-python38'
+
+# terraform-aws-lambda-auto-start-stop-ec2-instances
+copy 'terraform-aws-lambda-auto-start-stop-ec2-autoscalinggroups' 'terraform-module-aws-lambda-python38'
+
+# terraform-aws-lambda-auto-start-stop-rds-instances
+copy 'terraform-aws-lambda-auto-start-stop-rds-instances' 'terraform-module-aws-lambda-python38'
+
+# terraform-aws-lambda-sns-gchat-notification
+copy 'terraform-aws-lambda-sns-gchat-notification' 'terraform-module-aws-lambda-python38'
