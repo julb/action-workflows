@@ -71,3 +71,15 @@ copy 'terraform-aws-lambda-auto-start-stop-rds-instances' 'terraform-module-aws-
 
 # terraform-aws-lambda-sns-gchat-notification
 copy 'terraform-aws-lambda-sns-gchat-notification' 'terraform-module-aws-lambda-python38'
+
+# ansible-check-security-updates
+copy 'ansible-check-security-updates' 'ansible-module'
+
+# ansible-install-security-updates
+copy 'ansible-install-security-updates' 'ansible-module'
+
+# ansible-prometheus-node-exporter
+copy 'ansible-prometheus-node-exporter' 'ansible-module'
+
+# fluent-bit-extras
+copy 'fluent-bit-extras' 'simple-archive'
