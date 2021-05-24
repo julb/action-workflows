@@ -25,7 +25,7 @@ build:
 test:
 	@exec >&2; \
 	echo "> Testing."; \
-	molecule test
+	echo "NOOP."
 
 #test: @ Push the package.
 push:
@@ -43,11 +43,7 @@ format:
 lint:
 	@exec >&2; \
 	echo "> Linting."; \
-	echo "Running ansible syntax-check."; \
-	printf '[defaults]\nroles_path=../' >ansible.cfg; \
-	ansible-playbook tests/test.yml -i tests/inventory --syntax-check; \
-	echo "Running molecule lint."; \
-	molecule lint
+	echo "NOOP."
 
 #version.get: @ Gets the version value.
 version.get:

@@ -15,7 +15,7 @@ jobs:
         python-version: '3.9'
 
     - name: Install dependencies
-      run: pip3 install ansible molecule[docker] docker molecule[lint] bump2version
+      run: pip3 install bump2version
 
     - uses: actions/checkout@v2
     
@@ -116,11 +116,6 @@ jobs:
         from: ${{ steps.release_vars.outputs.version }}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-    - name: Push role to Ansible Galaxy
-      uses: robertdebock/galaxy-action@1.1.0
-      with:
-        galaxy_api_key: ${{ secrets.ANSIBLE_GALAXY_API_KEY }}
     
     - name: Merge back changes to target branch
       uses: devmasx/merge-branch@v1.3.1

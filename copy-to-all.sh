@@ -9,6 +9,9 @@ copy() {
     cp -R $project_type/. ../$project_name/
 }
 
+# action-copy-docker-tag
+copy 'action-copy-docker-tag' 'docker-action'
+
 # action-manage-branch
 copy 'action-manage-branch' 'python3-action'
 
@@ -72,14 +75,35 @@ copy 'terraform-aws-lambda-auto-start-stop-rds-instances' 'terraform-module-aws-
 # terraform-aws-lambda-sns-gchat-notification
 copy 'terraform-aws-lambda-sns-gchat-notification' 'terraform-module-aws-lambda-python38'
 
+# ansible-base
+copy 'ansible-base' 'ansible-module'
+
 # ansible-check-security-updates
 copy 'ansible-check-security-updates' 'ansible-module'
+
+# ansible-custom-ca
+copy 'ansible-custom-ca' 'ansible-module'
+
+# ansible-docker-ce
+copy 'ansible-docker-ce' 'ansible-module'
 
 # ansible-install-security-updates
 copy 'ansible-install-security-updates' 'ansible-module'
 
+# ansible-kube-cli
+copy 'ansible-kube-cli' 'ansible-module'
+
 # ansible-prometheus-node-exporter
 copy 'ansible-prometheus-node-exporter' 'ansible-module'
 
+# ansible-shell-aliases
+copy 'ansible-shell-aliases' 'ansible-module'
+
+# ansible-terraform-cli
+copy 'ansible-terraform-cli' 'ansible-module'
+
 # fluent-bit-extras
 copy 'fluent-bit-extras' 'simple-archive'
+
+# fluent-bit-extras
+copy 'nginx-extras' 'simple-archive'
